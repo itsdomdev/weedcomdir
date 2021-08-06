@@ -1,7 +1,6 @@
 {
   "name": "wcomlistings",
   "version": "0.1.0",
-  
   "private": true,
   "dependencies": {
     "@atlaskit/empty-state": "^7.1.5",
