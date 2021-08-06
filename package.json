@@ -1,7 +1,7 @@
 {
   "name": "wcomlistings",
   "version": "0.1.0",
-  "homepage": "http://localhost:3000/all",
+  
   "private": true,
   "dependencies": {
     "@atlaskit/empty-state": "^7.1.5",
