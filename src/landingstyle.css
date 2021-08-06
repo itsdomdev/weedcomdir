@@ -64,7 +64,7 @@
     /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.1340511204) 0%, rgba(255, 255, 255, 0.15155637255) 50%, rgba(255, 255, 255, 0.5155637255) 80%, white 100%); */
     /* background-color: rgba(255,255,255, 0.35); */
     flex-flow: row;
-    background: url(https://storage.googleapis.com/disp_images/appimgs/newhand.png) no-repeat;
+    background: url(https://storage.googleapis.com/weedcomimgs/disp_images/appimgs/newhand.png) no-repeat;
     background-size: 50%;
     background-position-y: center;
   }

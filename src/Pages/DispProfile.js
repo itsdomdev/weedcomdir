@@ -140,14 +140,14 @@ class DispProfile extends React.Component {
 
           const {listing, menu, isOpen, exdata,activePhoto, loading, path} = this.state;
           let bcstart = (path == 'delivery') ? 'Delivery Services' : `${path}`;
-          const missing_options = ["https://storage.googleapis.com/disp_images/missing/missing_image1.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image2.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image3.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image4.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image5.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image6.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image7.webp",
-          "https://storage.googleapis.com/disp_images/missing/missing_image8.webp"];
+          const missing_options = ["https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image1.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image2.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image3.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image4.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image5.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image6.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image7.webp",
+          "https://storage.googleapis.com/weedcomimgs/disp_images/missing/missing_image8.webp"];
           let mark = (listing.type === "delivery")
                ? '/images/purppin.png'
                : '/images/greenpin.png';
@@ -212,7 +212,7 @@ class DispProfile extends React.Component {
                                         ? <> < div className = "col flex-fill col-md-8 order-2 order-md-1" > <div className="top-img-one tp-img" style={{
                                                        backgroundImage: `url(${listing.images[exdata.random[0]]})`
                                                   }}></div>
-                                             {/* <!-- <img src="https://storage.googleapis.com/disp_images/48880_gallery_1.jpg" alt=""> --> */
+                                             {/* <!-- <img src="https://storage.googleapis.com/weedcomimgs/disp_images/48880_gallery_1.jpg" alt=""> --> */
                                         }
                                         </div>
                                         <div className="col flex-fill col-lg-3">
@@ -224,7 +224,7 @@ class DispProfile extends React.Component {
                                         : <> < div className = "col-7 p-0 p-lg-2 flex-fill col-lg-8 order-2 order-md-1" > <div className="top-img-one tp-img" style={{
                                                        backgroundImage: `url(${missing_options[Math.floor(Math.random() * missing_options.length)]})`
                                                   }}></div>
-                                             {/* <!-- <img src="https://storage.googleapis.com/disp_images/48880_gallery_1.jpg" alt=""> --> */
+                                             {/* <!-- <img src="https://storage.googleapis.com/weedcomimgs/disp_images/48880_gallery_1.jpg" alt=""> --> */
                                         }
                                         </div>
                                    <div className="col-5 p-0 p-lg-2 flex-fill col-lg-4">

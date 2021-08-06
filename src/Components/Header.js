@@ -124,7 +124,7 @@ class Header extends React.Component {
     <div className="row align-items-center justify-space-between" style={{margin:0, maxWidth:"100%"}}>
 	 <div className="col col-md-4">
 	   <div className="logo-wrap">
-	   <Link to="/"><Image src="https://storage.googleapis.com/disp_images/appimgs/white_wordmark.png" fluid /></Link>
+	   <Link to="/"><Image src="https://storage.googleapis.com/weedcomimgs/disp_images/appimgs/white_wordmark.png" fluid /></Link>
 
 	   </div>
 	 </div>

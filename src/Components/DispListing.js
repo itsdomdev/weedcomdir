@@ -39,7 +39,7 @@ function DispListing(props) {
 	}
 
 	else {
-		// bgimg = "https://storage.googleapis.com/disp_images/missing_avatar.jpg"
+		// bgimg = "https://storage.googleapis.com/weedcomimgs/disp_images/missing_avatar.jpg"
 		bgimg = data.avatar_image.original_url
 	}
 

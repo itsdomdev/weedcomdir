@@ -11,8 +11,8 @@ const testdata = {
         "rating": 4.76601307189542,
         "reviews_count": 153,
         "avatar_image": {
-            "small_url": "https://storage.googleapis.com/disp_images/5363_avatarsm_0.jpg",
-            "original_url": "https://storage.googleapis.com/disp_images/5363_avatar_org_0.jpg"
+            "small_url": "https://storage.googleapis.com/weedcomimgs/disp_images/5363_avatarsm_0.jpg",
+            "original_url": "https://storage.googleapis.com/weedcomimgs/disp_images/5363_avatar_org_0.jpg"
         },
         "license_type": "recreational",
         "address": "",
@@ -4170,26 +4170,26 @@ const testdata = {
             }
         },
         "images": [
-            "https://storage.googleapis.com/disp_images/5363_gallery_1.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_2.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_3.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_4.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_5.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_6.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_7.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_8.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_9.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_10.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_11.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_12.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_13.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_14.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_15.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_16.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_17.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_18.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_19.jpg",
-            "https://storage.googleapis.com/disp_images/5363_gallery_20.jpg"
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_1.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_2.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_3.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_4.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_5.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_6.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_7.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_8.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_9.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_10.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_11.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_12.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_13.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_14.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_15.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_16.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_17.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_18.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_19.jpg",
+            "https://storage.googleapis.com/weedcomimgs/disp_images/5363_gallery_20.jpg"
         ]
     },
     "random": [

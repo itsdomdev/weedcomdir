@@ -462,7 +462,7 @@ class LandingPage extends React.Component{
     <div id="landing_page" >
         <Header landing_page={true}/>
         <div id ="top-hero">
-        <img src="https://storage.googleapis.com/disp_images/appimgs/budimg.png" id="bud-img" className="floating"/>
+        <img src="https://storage.googleapis.com/weedcomimgs/disp_images/appimgs/budimg.png" id="bud-img" className="floating"/>
         <div id="inner-hero">
              <div class="row" style={{width:"100%", marginLeft:0, marginRight:0}}>
         <div className="col col-md-6"
