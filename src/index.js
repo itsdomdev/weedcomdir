@@ -10,7 +10,7 @@ import AppStore from './util/datastore'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 const TheRouter = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={'/all'}>
     <App />
   </BrowserRouter>
 )
