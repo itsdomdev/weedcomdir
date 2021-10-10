@@ -6,7 +6,7 @@ let isDev = false;
 const apiUrl = isDev ?
     "http://localhost:8080" :
     // "https://landing-preview-p2vs7mz6ta-uc.a.run.app" :
-    "https://us-east1-elasticn.cloudfunctions.net/dirfunctions" ;
+    "http://localhost:4000/api" ;
     // "https://us-central1-newproj-315711.cloudfunctions.net/dirfunctions" ;
 
 
@@ -31,6 +31,9 @@ export function getListings(dat) {
         // },
         // data : data
         // };
+        console.log(' ----- data ----- ')
+        console.log(data)
+        console.log(' ----- data ----- ')
 
         axios(config)
         .then(function (response) {

@@ -262,7 +262,7 @@ body {
   margin: auto;
   max-width: 50% !important;
   width: min-content !important;
-  
+
 }
 .hide-over{
   height: 100%;
@@ -306,12 +306,12 @@ body {
   color:#3c4242;
 }
 .fw-boldd{
-  font-family: 'Montserrat',Arial,sans-serif; 
-  font-weight: 100; 
+  font-family: 'Montserrat',Arial,sans-serif;
+  font-weight: 100;
   /* letter-spacing: -1px; */
   /* line-height: ; */
 
-  
+
   /* line-height: initial; */
 }
 /* .dlisting:hover .info-wrap-two {
@@ -371,7 +371,7 @@ body {
   /* min-height: 300px; */
   height: 100%;
    width: 100%;
-   
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -547,7 +547,7 @@ path.state:hover {
 path.state.selected {
   /* fill: */
   filter:drop-shadow(3px 3px 5px black) hue-rotate(180deg);
-  
+
   /* border: 2px solid purple; */
 }
 .mapboxgl-map.small-map{
@@ -623,7 +623,7 @@ button.search-again-btn{
 }
 
 .filter-select{
-  flex-grow: 1;  
+  flex-grow: 1;
 }
 .show-filter-btn{
   opacity: 0.5;
@@ -801,8 +801,8 @@ h2 {
   /* font-family: "Montserrat", sans-serif; */
   font-weight: 400 !important;
   color:#2d3436;
-  font-family: "Maven Pro", sans-serif; 
-  
+  font-family: "Maven Pro", sans-serif;
+
 }
 .fill-purple{
   fill:#8460a8 !important;
@@ -822,7 +822,7 @@ h2 {
 .logo-wrap-footer svg{
   max-width: 300px;
   margin-bottom: 2rem;
-  
+
 }
 .footer-links .col-6 div{
   line-height: 1.75rem;
@@ -862,7 +862,7 @@ h2 {
   display: block;
   /* height: auto; */
   /* box-sizing: ; */
-  
+
 }
 .brand-avatar-wrap h6{
   position: absolute;
@@ -903,7 +903,7 @@ h2 {
 #nearby-city-dropdown{
   max-height: 0;
   overflow: hidden;
-  
+
   /* border-radius: 10px; */
   /* border:1px solid rgba(131, 131, 131, 0.5); */
   transition: all 1s ease;
@@ -917,7 +917,7 @@ h2 {
 #nearby-city-btn{
   position: absolute;
   right: 10%;
-  
+
   top:50px;
 }
 #hide-map-btn{
@@ -943,7 +943,7 @@ h2 {
   }
 
   .ResizePanel-module_ContainerVertical__1_kb6.hide {
-    display: none !important; 
+    display: none !important;
   }
   #nearby-city-btn{
     top: 41px;
@@ -973,7 +973,7 @@ h2 {
     max-height: 100vh;
     overflow: hidden;
     position: relative;
-  
+
   }
   #landing_page #top-hero{
     height: 100vh;
@@ -1022,7 +1022,7 @@ h2 {
     backdrop-filter: blur(10px);
     padding: 2rem 1rem !important;
     max-width: 100%;
-    
+
 
   }
   #landing_page #mobile-main{
@@ -1053,18 +1053,18 @@ h2 {
     align-content: space-between;
     background: transparent;
   }
-  
+
   #landing_page #main-search .inputs-wrap input, #landing_page #main-search .inputs-wrap div {
     margin: 0 ;
     padding: 0;
     min-width: 100%;
 
-  } 
+  }
   #landing_page #main-search .inputs-wrap input, #landing_page #main-search .inputs-wrap div.css-6wi6s0-placeholder {
     padding-left: 10px ;
     /* font-size: 6vw !important; */
   }
-  #landing_page #main-search .inputs-wrap input, #landing_page #main-search .inputs-wrap #autocomplete { 
+  #landing_page #main-search .inputs-wrap input, #landing_page #main-search .inputs-wrap #autocomplete {
     /* background-color: rgba(99, 110, 114, 0.9) !important; */
     background-color: rgba(255,255,255, 0.9) !important;
     color:#212529;
@@ -1075,7 +1075,7 @@ h2 {
     border:none  !important;
     padding: 5px 10px;
   }
-  
+
   #landing_page #main-search .btn.btn-success{
     width: -webkit-fill-available;
     padding: 5px 10px;
@@ -1106,7 +1106,7 @@ h2 {
   #landing_page  #map-wrap{
     /* overflow: hidden; */
     overflow-x: scroll;
-    
+
   }
   #landing_page a.state-browse-link{
     width: inherit;
@@ -1219,7 +1219,7 @@ h2 {
     padding:0.25rem 0.5rem;
     font-size: 0.9rem;
     text-align:left;
-    
+
   }
   .logo-wrap-footer {
     text-align: center;
@@ -1239,7 +1239,7 @@ h2 {
     justify-content: center;
   }
   .footer-links.row .col-12 h6{
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
     width: 100%;
     letter-spacing: 0px;
   }
@@ -1312,4 +1312,12 @@ h2 {
   .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link{
     padding: 0.5rem !important;
   }
+}
+
+
+.nearby-listing-inner{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
 }

@@ -100,7 +100,7 @@ const ListingCol = (props) => {
         props.fetchMoreData()
     }
 
-    
+
     let bcstart = (path == 'delivery') ? 'Delivery Services' : `${path}`;
     return (
         // <div className="listing-col col mt-3 mt-lg-5 col-lg-8 flex-fill">
@@ -282,10 +282,12 @@ const ListingCol = (props) => {
                             }).map(l => (
                                 <ListingBlock data={l} path={path} ex={extradata} />
                             ))}
-                            
+
 <ScrollTop target="parent"/>
                         </InfiniteScroll>
-                        : <EmptyState
+                        :
+                        <>
+                        <EmptyState
                             header="No Listings Found..."
                             description={`There Are No Results For Your Current Search ${(filters.length > 0) ? `With The Chosen Filters.` : `Try To Broaden Your Search.`} `}
                             imageUrl="/images/search_empty.png"
@@ -293,14 +295,16 @@ const ListingCol = (props) => {
 
 
                         />
+                        <Container>
+                            <h3>Nearby Listings </h3>
+                            {nearbyListings.listings.map(l => (
+                                <ListingBlock data={l} path={path} ex={extradata} />
+                            ))}
+                            </Container>
+                            </>
                 }
-                                        <ScrollPanel>
-                                            <h3>Nearby Listings </h3>
-                                            {nearbyListings.listings.map(l => (
-                                                <ListingBlock data={l} path={path} ex={extradata} />
-                                            ))}
-                                            </ScrollPanel>
-                                            
+
+
             </ScrollPanel>
 
             <div id="scrolling-container" className="d-none container-fluid p-lg-0 pr-lg-5 m-lg-0">
@@ -384,7 +388,8 @@ const ListingCol = (props) => {
 
 
                         </InfiniteScroll>
-                        : <EmptyState
+                        : <>
+                        <EmptyState
                             header="No Listings Found..."
                             description={`There Are No Results For Your Current Search ${(filters.length > 0) ? `With The Chosen Filters.` : `Try To Broaden Your Search.`} `}
                             imageUrl="/images/search_empty.png"
@@ -392,6 +397,13 @@ const ListingCol = (props) => {
 
 
                         />
+                        <Container>
+                                          <h3>Nearby Listings </h3>
+                                          {nearbyListings.listings.map(l => (
+                                              <ListingBlock data={l} path={path} ex={extradata} />
+                                          ))}
+                                          </Container>
+                                          </>
                 }
 
             </div>
@@ -652,7 +664,8 @@ class Listing extends React.Component {
                 } else {
                     this.setState({
                         hasListings: res.has_listings,
-                        loading: false
+                        loading: false,
+                        nearbyListings: res.nearbyListings
                     })
                 }
             })
@@ -728,6 +741,7 @@ class Listing extends React.Component {
             city,
             extradata,
             center,
+            nearbyListings,
             curpage,
             geojson,
             morePages
@@ -757,8 +771,15 @@ class Listing extends React.Component {
                     let gj = res.geojson
                     let ft = gj.features.concat(geojson.features)
                     gj.features = ft;
+                    let newlistings = res.listings
+                    if(!res.morePages){
+                        newlistings = res.listings.concat(nearbyListings.listings)
+                        let nlgj = ft.concat(nearbyListings.geojson.features)
+                        // ft = nlgj
+                        gj.features =nlgj
+                    }
                     this.setState({
-                        listings: this.state.listings.concat(res.listings),
+                        listings: this.state.listings.concat(newlistings),
                         curpage: res.curpage,
                         morePages: res.morePages,
                         bounds: res.bounds,
@@ -1087,6 +1108,15 @@ class Listing extends React.Component {
 
 
                             />
+                            <div>
+                            <h2>Nearby Listings </h2>
+                            <Container className="nearby-listing-inner">
+
+                                {nearbyListings.listings.map(l => (
+                                    <ListingBlock data={l} path={path} ex={extradata} />
+                                ))}
+                                </Container>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -1125,7 +1155,7 @@ class Listing extends React.Component {
                                                 clearFilters={this.clearFilters}
                                                 handleChange={this.handleChange}
                                             />
-                                            
+
                                         </SplitterPanel>
                                         <SplitterPanel size={30} style={{backgroundColor:"#C3C7CC"}}>
                                             <Map geojson={geojson} mapLoading={loadingMap} center={center} bounds={bounds} handleMapUpdate={this.handleMapUpdate} listings={filteredListings} toggleExpandMap={this.toggleExpandMap} />

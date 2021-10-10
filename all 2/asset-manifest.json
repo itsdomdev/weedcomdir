@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/all/static/css/main.2f109606.chunk.css",
+    "main.js": "/all/static/js/main.1ec3bebc.chunk.js",
+    "main.js.map": "/all/static/js/main.1ec3bebc.chunk.js.map",
+    "runtime-main.js": "/all/static/js/runtime-main.d6a435bd.js",
+    "runtime-main.js.map": "/all/static/js/runtime-main.d6a435bd.js.map",
+    "static/css/2.8368642e.chunk.css": "/all/static/css/2.8368642e.chunk.css",
+    "static/js/2.b668077d.chunk.js": "/all/static/js/2.b668077d.chunk.js",
+    "static/js/2.b668077d.chunk.js.map": "/all/static/js/2.b668077d.chunk.js.map",
+    "index.html": "/all/index.html",
+    "static/css/2.8368642e.chunk.css.map": "/all/static/css/2.8368642e.chunk.css.map",
+    "static/css/main.2f109606.chunk.css.map": "/all/static/css/main.2f109606.chunk.css.map",
+    "static/js/2.b668077d.chunk.js.LICENSE.txt": "/all/static/js/2.b668077d.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.3ebffdd9.worker.js": "/all/static/js/mapbox-gl-csp-worker.3ebffdd9.worker.js",
+    "static/js/mapbox-gl-csp-worker.3ebffdd9.worker.js.map": "/all/static/js/mapbox-gl-csp-worker.3ebffdd9.worker.js.map",
+    "static/media/primeicons.css": "/all/static/media/primeicons.e61f3495.woff",
+    "static/media/theme.css": "/all/static/media/roboto-v20-latin-ext_latin-regular.ae804dc0.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6a435bd.js",
+    "static/css/2.8368642e.chunk.css",
+    "static/js/2.b668077d.chunk.js",
+    "static/css/main.2f109606.chunk.css",
+    "static/js/main.1ec3bebc.chunk.js"
+  ]
+}
